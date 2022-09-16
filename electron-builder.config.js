@@ -1,6 +1,6 @@
 module.exports = {
-  appId: 'icejs-electron',
-  productName: 'icejs-electron',
+  appId: 'test-electron',
+  productName: 'test-electron',
   files: [
     'packages/**/build/**',
   ],

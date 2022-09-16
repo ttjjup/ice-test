@@ -13,7 +13,7 @@ const loopMenuItem = (menus) =>
 export default function BasicLayout({ children, location }) {
   return (
     <ProLayout
-      title="icejs & antd"
+      title="test & antd"
       style={{
         minHeight: '100vh',
       }}
@@ -32,17 +32,12 @@ export default function BasicLayout({ children, location }) {
         <DefaultFooter
           links={[
             {
-              key: 'icejs',
-              title: 'icejs',
-              href: 'https://github.com/ice-lab/icejs',
-            },
-            {
               key: 'antd',
               title: 'antd',
               href: 'https://github.com/ant-design/ant-design',
             },
           ]}
-          copyright="by icejs & antd"
+          copyright="by test & antd"
         />
       )}
     >

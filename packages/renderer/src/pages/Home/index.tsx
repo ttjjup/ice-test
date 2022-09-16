@@ -9,12 +9,12 @@ function App() {
     <div className="App">
       <Head>
         <meta charSet="utf-8" />
-        <title>🚀 Vite + icejs</title>
+        <title>🚀 Vite + playground</title>
         <meta name="keywords" content="About Keywords" />
         <meta name="description" content="About Description" />
       </Head>
       <header className="App-header">
-        <p className="header">🚀 Vite + icejs</p>
+        <p className="header">🚀 Vite + playground</p>
 
         <div className="body">
           <button type="button" onClick={() => setCount((e) => e + 1)}>

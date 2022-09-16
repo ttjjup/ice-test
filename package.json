@@ -1,12 +1,12 @@
 {
   "name": "@icedesign/scaffold-electron",
   "version": "0.1.0",
-  "description": "icejs Electron 模板，基于 vite",
+  "description": "test Electron 模板，基于 vite",
   "main": "packages/main/build/index.cjs",
   "scripts": {
     "start": "icejs start --disable-open --rootDir ./packages/renderer",
     "prebuild": "icejs build --rootDir ./packages/renderer",
-    "build": "NPM_CONFIG_ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ electron-builder build --config electron-builder.config.js",
+    "build": "cross-env NPM_CONFIG_ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ electron-builder build --config electron-builder.config.js",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint --ext .ts,.tsx,.js,.jsx ./",
     "eslint:fix": "eslint --ext .ts,.tsx,.js,.jsx ./ --fix",
